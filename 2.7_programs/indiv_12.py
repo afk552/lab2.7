@@ -12,10 +12,10 @@ if __name__ == '__main__':
     X = (A.union(B)).intersection(D)
     # Взяли дополнение для множества A
     an = univ.difference(A)
-    an_int_D = an.difference(D)
+    an_int_d = an.intersection(D)
     c_diff_b = C.difference(B)
 
-    Y = an_int_D.union(c_diff_b)
+    Y = an_int_d.union(c_diff_b)
     print("A", A, "\nB", B, "\nC", C, "\nD", D, "\nUniv.", univ, "\n")
     print("X = (A ∪ B) ∩ D => ", X)
     print("Y = (¬A ∩ D) ∪ (C / B) =>", Y)
