@@ -16,6 +16,6 @@ if __name__ == '__main__':
     c_diff_b = C.difference(B)
 
     Y = an_int_D.union(c_diff_b)
-    print("A", A, "B", B, "C", C, "D", D)
+    print("A", A, "\nB", B, "\nC", C, "\nD", D, "\nUniv.", univ, "\n")
     print("X = (A ∪ B) ∩ D => ", X)
     print("Y = (¬A ∩ D) ∪ (C / B) =>", Y)
