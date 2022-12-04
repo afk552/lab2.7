@@ -3,7 +3,7 @@
 
 if __name__ == '__main__':
     # Универсальное множество
-    univ = set("abcdefghijklmnopqrstuvwxyz")
+    univ = set("abcdef")
     A = {'b', 'k', 'n', 'o', 'q'}
     B = {'a', 'b', 'k', 'u'}
     C = {'o', 'p'}
