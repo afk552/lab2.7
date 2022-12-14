@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 
 if __name__ == '__main__':
-    strr1 = str(input("Введите первую строку: ")).lower()
-    strr2 = str(input("Введите вторую строку: ")).lower()
+    strr1 = input("Введите первую строку: ").lower()
+    strr2 = input("Введите вторую строку: ").lower()
     set_inter = set(strr1).intersection(set(strr2))
     expt = {'.', ' ', '!', '?', ','}
     set_inter = set_inter.difference(expt)

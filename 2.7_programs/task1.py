@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 if __name__ == '__main__':
-    stroka = (str(input("Введите строку: "))).lower()
+    stroka = (input("Введите строку: ")).lower()
     if len(stroka) == 0:
         print("Введена пустая строка!")
         exit(1)
